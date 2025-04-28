@@ -1,0 +1,11 @@
+/* :root{
+  --color-primario : #1C1C1C;
+  --acento : #D4AF37;
+  --color-secundario : #1A2A6C;
+  --color-terceario : #F4F4F4;
+} */
+.bx {
+    font-size: 25px;
+    color: var(--acento)
+  }
+  
