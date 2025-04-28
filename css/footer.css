@@ -9,3 +9,8 @@ footer{
     box-shadow: 2px -1px 1px 0px var(--color-terceario) ;
     color: var(--color-terceario);
 }
+@media (max-width : 768px){
+
+    footer{}
+
+}
