@@ -25,3 +25,21 @@ main section p{
 main section a{
     color: var(--acento);
 }
+@media (max-width : 768px){
+
+    main{
+        margin-left: 5%;
+        margin-top: 40%;
+        width: 90%;
+        height: 22vh; 
+    }
+
+    main section p{
+        font-size: x-small;
+    }
+    main section h2{
+        font-size: small;
+        margin-bottom: 0.5rem;
+    }
+
+}
