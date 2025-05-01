@@ -12,12 +12,13 @@
         <!-- titulo -->
         <title>OLyMPUS</title>
         <!-- css -->
-        <link rel="stylesheet" href="/css/average.css"> 
-        <link rel="stylesheet" href="/css/iconos.css">
-        <link rel="stylesheet" href="/css/header.css">
-        <link rel="stylesheet" href="/css/nav.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="css/average.css"> 
+        <link rel="stylesheet" href="css/iconos.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/catalogo.css">
         <!-- icono -->
         <link rel="icon" href="/images/icono/ab67616d0000b27305262907c6205717a9610956.jfif">
         <!-- link iconos -->
@@ -25,14 +26,34 @@
     
     </head>
 <body>
+            <!-- scripts -->
+    <script src="/js/nodulos.js"></script>
+
     <header id="header"></header>
     <nav id="nav"></nav>
     <main>
         <section>
             <h1>Galería de Fotos</h1>
-            <img src="/images/yo 1.jpg" alt="Ejemplo">
+            
+            <div id="catalogo" class="productos" >
+
+                <div class="producto" id="producto">
+                    <img src="/images/Tridente de Poseidón en azul.png" alt="poseidon" class="img-catalogo" >
+                    <h2>Poseidon</h2>
+                    <p>El dios del mar y los terremotos, Poseidón es conocido por su tridente y su dominio sobre las aguas.</p>
+                </div>
+
+                <div class="producto" id="producto">
+                    <img src="/images/Rayo blanco sobre fondo azul oscuro.png" alt="zeus" class="img-catalogo" >
+                    <h2>Zeus</h2>
+                    <p>El rey de los dioses, Zeus es el dios del cielo y el trueno, conocido por su rayo y su autoridad suprema.</p>
+                </div>
+
+            </div>
+
         </section>
     </main>
     <footer id="footer"></footer>
+
 </body>
 </html>
