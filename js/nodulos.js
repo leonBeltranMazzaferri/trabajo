@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
             <li><a href='pagina2.html'>Equipamiento</a> <i class='bx bx-dumbbell'></i> </li>
         </ul>`;
 
-    document.getElementById("footer").innerHTML = "<p> INTEGRANTES : LEON BELTRAN - BELEN MARTINEZ - BRISA FARIAS </p>";
+    document.getElementById("footer").innerHTML = "<p> INTEGRANTES : LEON BELTRAN - BELEN MARTINEZ  </p>";
 });
