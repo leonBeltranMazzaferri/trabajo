@@ -11,7 +11,10 @@ footer{
     color: var(--color-terceario);
 }
 @media (max-width : 768px){
-
-    footer{}
+    
+    footer{
+        position: fixed;
+        bottom: 0px
+    }
 
 }

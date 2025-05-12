@@ -47,3 +47,24 @@ section h1{
     margin: 5%;
     margin-top: 1%;
 }
+@media (max-width: 425px) {
+    .productos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .producto{
+        width: 60%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .img-catalogo{
+        width: 100%;
+        height: auto;
+    }
+    .main-catalogo{
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+    }
+}

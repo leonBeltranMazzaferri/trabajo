@@ -44,7 +44,7 @@ label{
     display: none;
     cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 425px) {
 
     label {
         position: absolute;
@@ -61,7 +61,7 @@ label{
     .menu{
         position: absolute;
         top: -0.5%;
-        right: 75%;
+        right: 89%;
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -70,7 +70,7 @@ label{
     }
 
     #menu-hamburguesa:checked ~ .menu {
-        right: 55%;
+        right: 47%;
     }
     nav ul li{
             display: flex;
